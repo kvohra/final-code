@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="544.0" prefWidth="584.0000000000000" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="rocket.app.view.MortgageController">
+  <children>
+    <GridPane layoutX="0.0" layoutY="0.0" prefHeight="544.0" prefWidth="577.0">
+      <children>
+        <GridPane GridPane.columnIndex="0" GridPane.rowIndex="0">
+          <children>
+            <Label prefWidth="74.0" text="income" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <Label prefWidth="95.0" text="expenses" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <Label prefWidth="109.0" text="CreditScore" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <TextField prefHeight="48.0" prefWidth="144.0" promptText="txtIncome" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+            <TextField prefHeight="48.0" prefWidth="144.0" promptText="txtExpenses" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField prefHeight="48.000099999997474" prefWidth="144.0" promptText="txtCreditScore" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+          </children>
+          <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          </columnConstraints>
+          <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          </rowConstraints>
+        </GridPane>
+        <GridPane GridPane.columnIndex="0" GridPane.rowIndex="1">
+          <children>
+            <Label prefWidth="88.0" text="HouseCost" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <Label prefWidth="109.0" text="Rate" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <Label prefWidth="118.0" text="MonthlyPayment" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <TextField prefHeight="48.0" prefWidth="144.0" promptText="txtHouseCost" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+            <TextField prefHeight="48.0" prefWidth="144.0" promptText="txtRate" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField prefHeight="41.0" prefWidth="144.0" promptText="txtMonthlyPayment" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+          </children>
+          <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          </columnConstraints>
+          <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          </rowConstraints>
+        </GridPane>
+        <GridPane GridPane.columnIndex="0" GridPane.rowIndex="2">
+          <children>
+            <Label text="downpayment" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <Label prefWidth="144.0" text="lblMortgagePayment" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <TextField prefHeight="41.0" prefWidth="144.0" promptText="DownPayment" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+            <TextField prefHeight="41.0" prefWidth="144.0" promptText="MortgagePayment" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label prefWidth="130.0" text="numberofpayment" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <TextField prefHeight="41.0" prefWidth="144.0" promptText="numberofpayment" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+          </children>
+          <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          </columnConstraints>
+          <rowConstraints>
+            <RowConstraints maxHeight="61.0" minHeight="10.0" prefHeight="61.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="60.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="60.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+          </rowConstraints>
+        </GridPane>
+        <GridPane GridPane.columnIndex="1" GridPane.rowIndex="0">
+          <children>
+            <ComboBox editable="true" prefWidth="109.0" promptText="combTerm" style="15&#10;30" GridPane.columnIndex="0" GridPane.rowIndex="0">
+              <items>
+                <FXCollections fx:factory="observableArrayList">
+                  <String fx:value="Item 1" />
+                  <String fx:value="Item 2" />
+                  <String fx:value="Item 3" />
+                </FXCollections>
+              </items>
+            </ComboBox>
+          </children>
+          <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          </columnConstraints>
+          <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          </rowConstraints>
+        </GridPane>
+        <GridPane GridPane.columnIndex="1" GridPane.rowIndex="1">
+          <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          </columnConstraints>
+          <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          </rowConstraints>
+        </GridPane>
+        <GridPane GridPane.columnIndex="1" GridPane.rowIndex="2">
+          <children>
+            <Button mnemonicParsing="false" onAction="#btnCalculatePayment" onMouseClicked="#btnCalculatePayment" text="CalculatePayment" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+          </children>
+          <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          </columnConstraints>
+          <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          </rowConstraints>
+        </GridPane>
+      </children>
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+  </children>
+</AnchorPane>
